@@ -36,16 +36,17 @@ pipeline {
 
     post {
 
-        always {
+    always {
 
-            allure(
+        allure(
 
-                includeProperties: false,
+            commandline: 'Allure',
 
-                jdk: '',
+            includeProperties: false,
 
-                results: [[path: 'allure-results']]
-            )
-        }
+            jdk: '',
+
+            results: [[path: 'allure-results']]
+        )
     }
 }
