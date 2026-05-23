@@ -15,8 +15,8 @@ allure-report/
 logs/
 
 # Environment Files
-.env
-.env.*
+# .env
+# .env.*
 !.env.example
 
 # OS Files

@@ -36,7 +36,7 @@ export class LoginPage {
             'Navigating to Login Page'
         );
 
-        await this.page.goto('/');
+        await this.page.goto('https://www.saucedemo.com');
     }
 
     /**
