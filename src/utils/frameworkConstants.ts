@@ -1,0 +1,10 @@
+export const FRAMEWORK_CONSTANTS = {
+
+    DEFAULT_TIMEOUT: 30000,
+
+    API_CONTENT_TYPE: 'application/json',
+
+    SUCCESS_STATUS_CODE: 200,
+
+    CREATED_STATUS_CODE: 201
+};

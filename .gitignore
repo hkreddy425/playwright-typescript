@@ -1,0 +1,32 @@
+# Node Modules
+node_modules/
+
+# Playwright Reports
+playwright-report/
+
+# Test Results
+test-results/
+
+# Allure Reports
+allure-results/
+allure-report/
+
+# Logs
+logs/
+
+# Environment Files
+.env
+.env.*
+!.env.example
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# IDE Files
+.vscode/
+.idea/
+
+# Temporary Files
+*.tmp
+*.log
